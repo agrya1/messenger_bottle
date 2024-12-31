@@ -8,11 +8,25 @@ allprojects {
 rootProject.buildDir = "../build"
 subprojects {
     project.buildDir = "${rootProject.buildDir}/${project.name}"
-}
-subprojects {
     project.evaluationDependsOn(":app")
 }
 
 tasks.register("clean", Delete) {
     delete rootProject.buildDir
+}
+
+buildscript {
+    ext {
+        kotlin_version = '1.8.22'
+        agp_version = '8.1.0'
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "com.android.tools.build:gradle:$agp_version"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
 }

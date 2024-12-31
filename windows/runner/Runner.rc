@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "messenger_bottle" "\0"
+            VALUE "FileDescription", "漂流瓶" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "messenger_bottle" "\0"
+            VALUE "InternalName", "drift_bottle" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "messenger_bottle.exe" "\0"
-            VALUE "ProductName", "messenger_bottle" "\0"
+            VALUE "OriginalFilename", "drift_bottle.exe" "\0"
+            VALUE "ProductName", "漂流瓶" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

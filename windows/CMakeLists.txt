@@ -1,10 +1,13 @@
 # Project-level configuration.
 cmake_minimum_required(VERSION 3.14)
-project(messenger_bottle LANGUAGES CXX)
+project(runner LANGUAGES CXX)
 
-# The name of the executable created for the application. Change this to change
-# the on-disk name of your application.
-set(BINARY_NAME "messenger_bottle")
+# 添加 LLVM 配置
+set(CMAKE_CXX_COMPILER "cl")
+set(CMAKE_C_COMPILER "cl")
+
+# Define the application target
+set(BINARY_NAME "drift_bottle")
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.

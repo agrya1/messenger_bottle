@@ -1,0 +1,11 @@
+{
+  "window": {
+    "title": "漂流瓶",
+    "width": 1280,
+    "height": 720,
+    "minWidth": 800,
+    "minHeight": 600,
+    "backgroundColor": "#FFFFFF",
+    "center": true
+  }
+} 
